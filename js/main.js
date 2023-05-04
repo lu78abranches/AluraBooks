@@ -22,26 +22,7 @@ const swiper = new Swiper('.swiper', {
         
     }
 
-    var botaoSaibaMais = document.getElementsByClassName("botoes__ancora");
-
-    for (let i = 0; i < botaoSaibaMais.length; i++) {
-        var saibaMais = botaoSaibaMais[i];
-
-        saibaMais.addEventListener("click", function() {
-            var legenda = document.getElementsByClassName("hide");
-            for (let x = 0; x < legenda.length; x++) {
-                var legend = legenda[x];
-                legend.classList.remove("hide");
-            }
-
-            
-        });
-
-        
     
-        
-        
-    }
 
     
 
