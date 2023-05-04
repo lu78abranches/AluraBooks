@@ -102,6 +102,20 @@
        margin: 2em 0 3em 0;
     }
 
+    .descricao__titulo {
+        font-size: 30px;
+    }
+
+    .descricao__titulo-livros {
+        font-size: 22px;
+    }
+
+    .descricao__texto {
+        font-size: 18px;
+        padding-right: 10em;
+        line-height: 1.5em;
+    }
+
     .swiper {
         width: 60%;
     }
