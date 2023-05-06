@@ -61,24 +61,27 @@
 
 .descricao__texto {
     font-size: 14px;
-    margin-bottom: 1em;
+    
 }
 
 .hide-legenda {
     display: none;
+    
 }
 
 .card__botoes:hover + .hide-legenda {
     display: block;
     box-shadow: 4px 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.2em;
     color: var(--branco);
     background: var(--laranja-claro);
     font-weight: 500;
     padding: 1em 2em 1em 2em;
+    margin-top: 1em;
     width: 70%;
+    
 }
 
 .botoes__item {
@@ -91,20 +94,24 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+   
 
 }
 
 .botoes__ancora:hover {
     background-color: var(--azul);
     color: var(--laranja);
-    font-size: 17px;
+    font-size: 16.5px;
+    transition: 0.3s all;
+    font-weight: 900;
+    
 }
-
 
 
 .descricao__imagem-escritora{
     width: 146.5px;
     height: 152px;
+   
 }
 
 

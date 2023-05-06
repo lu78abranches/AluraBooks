@@ -83,6 +83,8 @@ text-transform: uppercase;
     display: none;
 }
 
+
+
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
@@ -106,6 +108,12 @@ text-transform: uppercase;
     .opcoes__item {
         padding: 1em;
         text-transform: uppercase;
+    }
+
+    .opcoes__item:hover {
+        font-size:25px;
+        transition: 1s all;
+        padding: 0;
     }
 
     .opcoes__link {
