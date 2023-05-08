@@ -36,7 +36,7 @@
     color: var(--azul);
     background: url("../assets/Email.svg") no-repeat;
     background-position: 1.1em;
-    margin-right: 5em;
+    margin-right: 2em;
 }
 
 @media screen and (min-width: 1024px ) {
