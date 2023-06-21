@@ -13,7 +13,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -37,7 +38,8 @@
     display: flex;
 }
 
-.card, .card2 {
+.card,
+.card2 {
     background: var(--branco);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -48,8 +50,8 @@
 
 
 .descricao__titulo {
-   color: var(--laranja);
-   font-weight: 700; 
+    color: var(--laranja);
+    font-weight: 700;
 }
 
 .descricao__titulo-livros {
@@ -61,15 +63,15 @@
 
 .descricao__texto {
     font-size: 14px;
-    
+
 }
 
 .hide-legenda {
     display: none;
-    
+
 }
 
-.card__botoes:hover + .hide-legenda {
+.card__botoes:hover+.hide-legenda {
     display: block;
     box-shadow: 4px 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
     border-radius: 5px;
@@ -81,11 +83,12 @@
     padding: 1em 2em 1em 2em;
     margin-top: 1em;
     width: 70%;
-    
+
 }
 
 .botoes__item {
     margin: 0 0.2em;
+    list-style: none;
 }
 
 .botoes__ancora {
@@ -94,7 +97,7 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
-   
+
 
 }
 
@@ -104,14 +107,14 @@
     font-size: 16.5px;
     transition: 0.3s all;
     font-weight: 900;
-    
+
 }
 
 
-.descricao__imagem-escritora{
+.descricao__imagem-escritora {
     width: 146.5px;
     height: 152px;
-   
+
 }
 
 
@@ -124,7 +127,7 @@
     }
 
     .swiper-pagination {
-       margin: 2em 0 3em 0;
+        margin: 2em 0 3em 0;
     }
 
     .descricao__titulo {
@@ -151,15 +154,22 @@
     }
 
     .card {
-        margin: 2em auto;
-        width: 52%;
-        
+        margin: 1em auto;
+        width: 70%;
+
     }
 
     .card2 {
         margin: 2em auto;
-        width: 52%;
+        width: 70%;
     }
+
+    .descricao_imagem {
+        width: 100%;
+        
+    }
+
+    
 
 }
 
@@ -173,24 +183,24 @@
     .swiper-pagination {
         margin: 1.5em 0;
 
-     }
+    }
 
-     .swiper {
+    .swiper {
         width: 40%;
     }
 
     .card {
-        
+
         width: 50%;
         margin-top: 5em;
-        
+
     }
 
     .card2 {
-        
+
         width: 50%;
         margin-top: 5em;
-        
+
     }
 
 
@@ -206,8 +216,10 @@
         font-size: 16px;
     }
 
-  
+    .descricao_imagem {
+        width: 250px;
+        height: 152px;
+    }
+
+
 }
-    
-
-
