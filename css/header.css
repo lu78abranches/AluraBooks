@@ -108,6 +108,8 @@ text-transform: uppercase;
     .opcoes__item {
         padding: 1em;
         text-transform: uppercase;
+        list-style: none;
+        margin-right: 5em;
     }
 
     .opcoes__item:hover {
