@@ -28,14 +28,17 @@ body {
 }
 
 .banner2 {
-  
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 130px;
-  
+
+
+  background: var(--azul-degrade);
+  color: var(--branco);
+  text-align: center;
+  padding: 2.5em 2em;
+
+
 }
 
- h1{
+h1 {
   font-weight: 700;
   font-size: 2.5em;
   padding: 0.5em 0.5em 1em 0;
@@ -75,17 +78,21 @@ p {
   border-bottom: 2px solid var(--text-description-color);
 }
 
+.container-ancora {
+  text-decoration: none;
+}
+
 .container-livros {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .livros {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
+
 }
 
 .livro {
@@ -95,7 +102,7 @@ p {
   justify-content: space-between;
   height: 644px;
   margin-bottom: 1rem;
-  
+
 }
 
 .indisponivel {
@@ -162,7 +169,7 @@ p {
   font-weight: 500;
   line-height: 24px;
   font-size: 2.5em;
-} 
+}
 
 .rodape2 {
   width: 100%;
