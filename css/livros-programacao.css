@@ -27,7 +27,7 @@ body {
   margin: 15px 2px;
 }
 
-.banner {
+.banner2 {
   
   background-repeat: no-repeat;
   width: 100%;
@@ -164,7 +164,7 @@ p {
   font-size: 2.5em;
 } 
 
-.rodape {
+.rodape2 {
   width: 100%;
   height: 104px;
   background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
@@ -176,7 +176,7 @@ p {
   align-items: center;
 }
 
-.rodape p {
+.rodape2 p {
   color: #fff;
   font-weight: 500;
   line-height: 25px;
